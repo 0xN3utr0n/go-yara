@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Velocidex/go-yara"
+	"github.com/0xNeutr0n/go-yara"
 
 	"errors"
 	"flag"

@@ -6,7 +6,6 @@
 
 package yara
 
-// #cgo CFLAGS: -D_FILE_OFFSET_BITS=64
-// #cgo LDFLAGS:
-
+// #cgo CFLAGS: -D_FILE_OFFSET_BITS=64 -DHAVE_LIBCRYPTO -DHASH_MODULE -DHAVE_UNISTD_H
+// #cgo LDFLAGS: -lcrypto
 import "C"
